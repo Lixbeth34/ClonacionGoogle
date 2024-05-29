@@ -1,0 +1,191 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Fuente similar a la de Google */
+}
+
+header {
+    background-color: #ffffff; /* Color de fondo del encabezado */
+    border-bottom: 1px solid #eaeaea; /* Línea divisoria inferior */
+    padding: 10px 20px; /* Espaciado interno */
+    display: flex;
+    justify-content: flex-end; /* Alineación de elementos a la derecha */
+    align-items: center;
+}
+
+/*////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////*/
+
+
+.nav-right-section {
+    list-style-type: none; /* Eliminar viñetas de la lista */
+    display: flex;
+    align-items: center;
+}
+
+.nav-right-section li {
+    margin-left: 20px; /* Espaciado entre elementos */
+}
+
+.nav-right-section a {
+    text-decoration: none; /* Eliminar subrayado del enlace */
+    color: #1a0dab; /* Color de texto */
+}
+
+.nav-right-section a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+
+.nav-right-section .menu {
+    background-image: url(http://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    cursor: pointer; /* Cambia el cursor al pasar sobre el icono */
+}
+
+/* Estilo para la foto de perfil */
+.nav-right-section img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%; /* Hacer la imagen de perfil redonda */
+    margin-left: 10px; /* Espaciado entre la imagen de perfil y los elementos anteriores */
+}
+
+
+/*////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////*/
+
+main {
+    margin-top: 140px;
+    /* Centrar elementos */
+    text-align: center;
+}
+
+main .main-logo{
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+main .main-logo img {
+    /*tamaño de la img*/
+    height: 105px;
+}
+
+/* /////////////////////////////////// */
+
+main .main-input {
+    width: 600px;
+    margin: 0 auto;
+}
+
+main .main-input-conteiner {
+    width: 600px;
+    border: 1px solid #dfe1e5;
+    border-radius: 30px;
+    display: flex;
+    align-items: center; /* Alinear elementos verticalmente al centro */
+    padding: 0 10px; /* Añadir espacio interno a los lados */
+}
+
+main .main-input input {
+    flex: 1; /* Que el input ocupe todo el espacio restante */
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+main .main-input .search-icon,
+main .main-input .micro-icon,
+main .main-input .com-ico {
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer; /* Añadir cursor de puntero */
+}
+
+main .main-input .search-icon {
+    background-image: url(https://seekicon.com/free-icon-download/search_20.svg);
+    margin-right: 10px; /* Añadir espacio entre el icono de búsqueda y el input */
+}
+
+main .main-input .micro-icon {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png);
+    margin-left: 10px; /* Añadir espacio entre el input y el icono del micrófono */
+}
+
+main .main-input .com-ico {
+    background-image: url(https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg);
+    margin-left: 10px; /* Añadir espacio entre el micrófono y el icono de la cámara */
+}
+
+
+
+main .main-input-conteiner:hover {
+    box-shadow: 3px 3px 3px 3px #20212447;
+    border-color: #dfe1e500;
+}
+
+main .main-buttons {
+    width: 550;
+    margin: 0 auto;
+}
+
+main .main-buttons div{
+    display: inline;
+}
+
+main .main-buttons button {
+    margin-top: 30px;
+    border: none;
+    height: 40px;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    border-radius: 7px;
+    padding: 0 20px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+main .main-buttons button:hover {
+    color: #202124;
+    border: 1px solid #dadce0;
+    box-shadow: none;
+}
+
+/**********************************
+
+/* Estilos para el pie de página */
+
+footer {
+    background-color: #f2f2f2; /* Color de fondo del pie de página */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto al centro */
+    margin-top: 220px; /* Agrega margen superior para mover el pie de página más abajo */
+}
+
+
+.footer-links {
+    margin-bottom: 10px; /* Espaciado inferior */
+}
+
+.footer-links a {
+    text-decoration: none; /* Eliminar subrayado del enlace */
+    color: #666; /* Color del texto de los enlaces */
+    margin: 0 10px; /* Espaciado entre enlaces */
+}
+
+.footer-links a:hover {
+    color: #000; /* Cambio de color al pasar el mouse */
+}
+
+.footer-location span {
+    color: #999; /* Color del texto de la ubicación */
+}
